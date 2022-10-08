@@ -4,8 +4,8 @@
   "scripts": {
     "start": "dumi dev",
     "test": "umi-test",
-    "docs:build": "dumi build",
-    "docs:deploy": "gh-pages -d docs-dist",
+    "docs:build": "father build",
+    "docs:deploy": "gh-pages -d dist",
     "build": "father build",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
