@@ -2,11 +2,11 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
 	mode: 'site',
-	base: '/component-lib-demo',
-	publicPath: '/component-lib-demo/',
+	base: 'innovise_component',
+	publicPath: '/innovise_component/',
 	exportStatic: {},
   outputPath: 'docs',
-	title: 'component-lib-demo',
+	title: 'nnovise_component',
 	favicon: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
 	logo: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
 	mfsu: {},
